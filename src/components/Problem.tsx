@@ -1,13 +1,15 @@
 const Problem = () => {
   return (
-    <section className="py-24 px-4 bg-muted/30">
+    <section className="py-32 px-6 bg-gradient-to-b from-muted/20 to-background">
       <div className="container mx-auto max-w-4xl">
-        <div className="text-center animate-fade-in">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
-            Excellence shouldn't depend on extra hours or extra people.
+        <div className="text-center space-y-8 animate-fade-in">
+          <h2 className="text-5xl md:text-6xl font-bold leading-tight tracking-tight">
+            Excellence shouldn't depend on
+            <br />
+            <span className="text-muted-foreground">extra hours or extra people.</span>
           </h2>
           
-          <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
+          <div className="space-y-6 text-xl md:text-2xl text-muted-foreground leading-relaxed font-light max-w-3xl mx-auto pt-8">
             <p>
               Delivering an exceptional experience takes work — remembering every follow-up, tracking every detail, keeping every client feeling seen.
             </p>
@@ -19,8 +21,8 @@ const Problem = () => {
             </p>
           </div>
 
-          <div className="mt-12 inline-block">
-            <p className="text-2xl font-semibold text-primary">
+          <div className="pt-8">
+            <p className="text-2xl md:text-3xl font-semibold gradient-text">
               Moldlane changes that.
             </p>
           </div>
